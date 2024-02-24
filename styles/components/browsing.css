@@ -1,0 +1,14 @@
+.browsing {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    border-top: 2px solid #C9C9C9;
+    text-transform: uppercase;
+    color: #7A7A7A;
+}
+
+.browsing a {
+    text-decoration: none;
+    color: inherit;
+}

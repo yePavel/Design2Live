@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--primary--4);
+    font-family: lato-regular, serif;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    height: 315px;
+}

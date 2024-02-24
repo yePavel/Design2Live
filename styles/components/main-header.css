@@ -1,0 +1,89 @@
+.main-header {
+    display: grid;
+    grid-template-columns:
+        20px 1fr 20px;
+    height: 120px;
+    align-items: center;
+    background-color: var(--primary-1);
+}
+
+.main-header-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    grid-column: 2;
+}
+
+.main-header .logo {
+    display: flex;
+    align-items: center;
+
+    color: var(--primary--3);
+
+    font-family: euro, monospace;
+    font-size: 2.5em;
+}
+
+.logo span {
+    color: var(--green);
+}
+
+.main-nav-list li>* {
+    height: 120px;
+    width: 120px;
+    border: 1px solid var(--primary-0);
+
+    color: var(--primary--3);
+    background-color: var(--primary-1);
+}
+
+.main-nav-list li>*:hover {
+    color: var(--green);
+    cursor: pointer;
+}
+
+.main-nav-list li>*:hover::after {
+    content: '';
+    display: block;
+
+    transform: translate(0, 50px);
+
+    color: var(--green);
+    border-block: 2px solid var(--green);
+}
+
+.main-header-content .menuBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: right;
+
+    background-color: var(--primary--3);
+    color: var(--primary-0);
+
+    border-radius: 5px;
+    width: 30px;
+    font-size: 1.3em;
+}
+
+.main-header-content .menuBtn:hover {
+    cursor: pointer;
+}
+
+.main-header-content .closeMenuBtn {
+    position: absolute;
+    right: 0;
+
+    border-radius: 50%;
+    border: none;
+
+    font-size: 17px;
+
+    background: var(--primary-1);
+    color: var(--primary--4);
+}
+
+.main-header-content .closeMenuBtn:hover {
+    cursor: pointer;
+    color: var(--green);
+}

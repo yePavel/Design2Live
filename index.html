@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design to live page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/c705052b04.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="main-layout">
+    <div class="main-screen" onclick="toggleMenu()"></div>
+    <header class="main-header full">
+        <div class="main-header-content">
+            <div class="logo">Blogin<span>.</span></div>
+            <nav class="main-nav">
+                <button class="closeMenuBtn" onclick="toggleMenu()">X</button>
+                <ul class="main-nav-list clean-list flex space-between">
+                    <li><button>Journal</button></li>
+                    <li><button>About</button></li>
+                    <li><button>Work</button></li>
+                    <li><button>Contact</button></li>
+                </ul>
+            </nav>
+            <button class="menuBtn" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main class="main-content cards-layout">
+
+        <article class="card">
+            <img class="card-img" src="images/003.png.png" alt="">
+            <div class="info-container">
+                <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                    sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button>Continue Reading</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img class="card-img" src="images/002.png.png" alt="">
+            <div class="info-container">
+                <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                    sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button>Continue Reading</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img class="card-img" src="images/001.png.png" alt="">
+            <div class="info-container">
+                <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                    sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button>Continue Reading</button>
+            </div>
+        </article>
+
+        <section class="browsing">
+            <a href=""> <i class="fa-solid fa-arrow-left"></i> previous</a>
+            <a href="">next <i class="fa-solid fa-arrow-right"></i></a>
+        </section>
+
+    </main>
+
+    <footer class="main-footer full">
+        <div class="logo">Blogin<span>.</span></div>
+        <small class="footer-rights">
+            © 2014 Blogin.com - All Rights Reserved
+            - Find more free Templates at <span>Pixelhint.com</span>
+        </small>
+        <div class="footer-list flex">
+            <li><button><i class="icon fa-brands fa-facebook-f"></i></button></li>
+            <li><button><i class="icon fa-brands fa-twitter"></i></button></li>
+            <li><button><i class="icon fa-brands fa-behance"></i></button></li>
+            <li><button><i class="icon fa-solid fa-basketball"></i></button></li>
+        </div>
+    </footer>
+
+    <script src="js/command.js"></script>
+
+</body>
+
+</html>
